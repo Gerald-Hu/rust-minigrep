@@ -1,2 +1,3 @@
 # rust-minigrep
-Official rust practice
+
+This is an official rust practice from the Rust Book.
