@@ -1,12 +1,10 @@
 use std::error::Error;
 use std::fs;
 
-#[derive(Debug)]
 pub struct Config {
     query: String,
     file_path: String,
 }
-
 
 impl Config {
     pub fn new(args: &[String]) -> Config{
