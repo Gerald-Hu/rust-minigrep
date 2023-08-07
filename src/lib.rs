@@ -44,7 +44,7 @@ pub fn run<'a>(args: &[String]) -> Result<(), Box<dyn Error>>{
         }
 
         if args.len() > 3{
-            println!(); // Print an empty line if between each file
+            println!(); // Print an empty line between each file
         }
     }
 
